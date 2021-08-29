@@ -1,0 +1,468 @@
+html, body {    
+    margin: 0px;
+}
+
+#main{
+    background-image: url('../img/main-bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+
+}
+
+.navbar{
+    background-color: black !important; 
+    opacity: 0.5;
+}
+
+
+.navbar-brand{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+
+.navbar-nav{
+    display: flex;
+    padding-left: 70px;
+}
+
+.navbar-nav2{
+    display: flex;
+    padding-left: 350px;
+} 
+
+
+
+.nav-link{
+    font-size: 8px;
+    color: whitesmoke !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    justify-content: space-between;
+    letter-spacing: 3px;
+}
+
+.jumbotron {
+    margin-top: 25vh;
+    text-align: center;
+}
+
+.display-4{
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.lead{
+    font-weight: 200;
+    color: whitesmoke;
+}
+
+.btn-warning{
+    font-size: 12px;
+}
+
+.thestory{
+    font-size: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 30vh;
+    position:relative;
+    
+}
+
+
+#thegames{
+    background-image: url('../img/the-games-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.special{
+    font-size: 1rem;
+    color: whitesmoke;
+    padding-top: 5vw;
+    padding-left: 10vw;
+
+}
+
+.games{
+    font-size: 2.5rem;
+    color: whitesmoke;
+    padding-left: 10vw;
+}
+
+#carouselExampleIndicators{
+    margin-left: 40vw;
+    margin-right: 10vw;
+    position: absolute;
+
+}
+
+
+
+
+#features{
+    background-image: url('../img/Group.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+
+.featurestitle{
+    font-size: 1.2rem;
+    color: whitesmoke;
+    padding-left: 50vw;
+    padding-top: 12vh;
+}
+
+
+.featuresitems{
+    font-size: 2.8rem;
+    color: whitesmoke;
+    padding-left: 50vw;
+    letter-spacing: 0.2rem;
+}
+
+.bullet{
+    color: whitesmoke;
+    padding-left: 50vw;
+    padding-top: 2vh;
+}
+
+.trad{
+    color: orange;
+}
+
+.childhood{
+    color: whitesmoke;
+    font-size: 1vw;
+}
+
+.circle{
+    color: whitesmoke;
+}
+
+.circleitems{
+    color: orange;
+}
+
+#requirements{
+    background-image: url('../img/requirements.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.computers{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 2vh;
+}
+
+.requirementstitle{
+    font-size: 2.5rem;
+    color: whitesmoke;
+    padding-left: 6vw;
+    padding-top: 1vw;
+
+}
+
+.tabel{
+    width: 40vw;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: whitesmoke;
+    margin-left: 6vw;
+    position: relative;
+  }
+
+th, td {
+    padding: 7px;
+    color: white;
+  }
+
+.tablefont{
+    font-size: 0.6rem;
+}
+
+
+#topscore{
+    background-image: url('../img/bg\ image\ 3.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.jumbotron2 {
+    padding-left: 5vw;
+}
+
+.card{
+    background-color: #333333;
+    width: 20vw; 
+    height: 21vh;
+    position: relative;
+}
+
+.card-title{
+    font-size: 0.8rem;
+    color: orange;
+    position: relative;
+}
+
+.profession{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.img-fluid{
+    clip-path: circle();
+    margin: 5px;
+}
+
+
+.card-text{
+    font-size: 0.6rem;
+    text-align: left;
+    color: whitesmoke;
+}
+
+.twitter{
+    padding-left: 30px;
+}
+
+.display-5{
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.leadd{
+    font-weight: 100;
+    color: whitesmoke;
+}
+
+#subscribe{
+    background-image: url('../img/bg\ image\ 3.1.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+}
+
+
+
+.box{
+    position: absolute;
+    display: flex;
+}
+
+.skull{
+    margin-left: 10vw; 
+    padding-top: 2vh;
+}
+
+.jumbotron3 {
+    padding-left: 40vw;
+    padding-bottom: 10vh;
+}
+
+.touch{
+    color: whitesmoke;
+    padding-left: 40.5vw;
+    padding-top: 20vh;
+}
+
+.display-6{
+    color: whitesmoke;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    font-weight: solid;
+}
+
+.inorder{
+    color: whitesmoke;
+    font-size: 0.8rem;
+}
+
+.emailadd{
+    background-color: #333333;
+}
+
+.footeritems{
+    display: flex;
+}
+
+.footeritems ul{
+    display: flex;
+    margin-left: 40vw;
+    margin-bottom: 0.5vh;
+}
+
+.socialmedia{
+    letter-spacing: 20px;
+}
+
+.line{
+    color: whitesmoke;
+}
+
+.copywrite{
+    display: grid;
+    font-size: 0.7rem;
+    color: whitesmoke;
+    margin-left: 10px;
+}
+
+.privacy{
+    margin-left: 74vw;
+    margin-top: -6vh;
+    color: whitesmoke;
+    font-size: 0.7rem;
+}
+
+@media (max-width: 576px){
+
+    
+
+    .featurestitle{
+        font-size: 1.2rem;
+        color: whitesmoke;
+        padding-left: 45vw;
+        padding-top: 12vh;
+    }
+
+    .featuresitems{
+        font-size: 2.8rem;
+        color: whitesmoke;
+        padding-left: 45vw;
+        letter-spacing: 0.2rem;
+    }
+
+    .card{
+        background-color: #333333;
+        width: 35vh; 
+        height: 20vw;
+        position: relative;
+        top: -3vh;
+    }
+
+    .card-title{
+        font-size: 0.4rem;
+        color: orange;
+        position: relative;
+    }
+    
+    .profession{
+        font-size: 0.4rem;
+        color: gray;
+    }
+
+    .img-fluid{
+        clip-path: circle();
+        margin: 2px;
+        width: 50px;
+    }
+
+    .card-text{
+        font-size: 0.3rem;
+        text-align: left;
+        color: whitesmoke;
+
+    }
+
+    .card-body{
+        margin-left: 10vw;
+        margin-top: -9vh;
+    }
+
+    .twitter{
+        padding-left: 70px;
+    }
+
+    .display-5{
+        font-weight: 300;
+        color: whitesmoke;
+        font-size: 1.8rem;
+    }
+
+    .leadd{
+        font-weight: 100;
+        color: whitesmoke;
+        font-size: 0.55rem;
+    }
+
+    .jumbotron3 {
+        padding-left: 40vw;
+        padding-bottom: 45vh;
+        font-size: 1rem;
+    }
+    
+    .touch{
+        color: whitesmoke;
+        padding-left: 40.5vw;
+        padding-top: 5vh;
+        font-size: 0.8rem;
+    }
+
+    .display-6{
+        color: whitesmoke;
+        font-size: 1.5rem;
+        letter-spacing: 4px;
+        font-weight: solid;
+    }
+    
+    .inorder{
+        color: whitesmoke;
+        font-size: 0.42rem;
+    }
+
+    .btn-warning{
+        font-size: 8px;
+        width: 18vw;
+
+    }
+
+    .footeritems{
+        display: flex;
+    }
+    
+    .footeritems ul{
+        display: grid;
+        margin-left: 1vw;
+        margin-top: -40vh;
+        
+    }
+
+    .nav-link{
+        font-size: 0.5rem;
+    }
+
+    .socialmedia{
+        letter-spacing: 5px;
+    }
+    
+    .line{
+        color: whitesmoke;
+    }
+    
+    .copywrite{
+        display: grid;
+        font-size: 0.4rem;
+        color: whitesmoke;
+        margin-left: 3vw;
+        margin-bottom: 5.5vh;
+    }
+    
+    .privacy{
+        margin-left: 75vh;
+        margin-top: -7vh;
+        color: whitesmoke;
+        font-size: 0.4rem;
+    }
+
+}

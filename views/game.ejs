@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Game</title>
+    <link rel="stylesheet" href="../css/game.css">
+</head>
+<body>
+    <!-- Navigation -->
+    
+    <header>
+        <a href="index.html"><div class="symbol">
+            &lt;
+        </div></a>
+        <div class="logo"></div>
+        <div class="heading">
+            ROCK PAPER SCISSORS
+        </div>
+    </header>
+
+    <!-- Game Content -->
+    <div class="gameArea">
+
+        <!-- Player -->
+        <div class="playerArea">
+            <h1>PLAYER</h1>
+            <div class="playerWeapons">
+                <img src="./img/batu.png" class="batu" onclick="clickRock()" 
+                style="background-color: transparent; padding: 15px; border-radius: 30px;">
+                <img src="./img/kertas.png" class="kertas" onclick="clickPaper()" 
+                style="background-color: transparent; padding: 15px; border-radius: 30px;"> 
+                <img src="./img/gunting.png" class="gunting" onclick="clickScissor()" 
+                style="background-color: transparent; padding: 15px; border-radius: 30px;">
+            </div>
+        </div>
+
+        <div class="resultArea">
+            <div id="result" class="info">VS</div>
+        </div>
+
+        <!-- Refresh -->
+        <div class="refresh">
+            <img src="./img/refresh.png" id="refButton" onclick="refreshButton()">
+        </div>
+
+        <!-- Computer -->
+        <div class="comArea">
+            <h1>COM</h1>
+            <div class="comWeapons">
+                <img src="./img/batu.png" id="bgComRock" class="rock2" 
+                style="background-color: transparent; padding: 15px; border-radius: 30px;">
+                <img src="./img/kertas.png" id="bgComPaper" class="paper2" 
+                style="background-color: transparent; padding: 15px; border-radius: 30px;">
+                <img src="./img/gunting.png" id="bgComScissor" class="scissor2" 
+                style="background-color: transparent; padding: 15px; border-radius: 30px;">
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Script -->
+    <script src="./js/game.js"></script>
+    
+</body>
+</html>
